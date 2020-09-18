@@ -6,20 +6,11 @@ public class Transacao implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 	
-	private Integer idUser;
 	private String descricao;
 	private Long data;
 	private Integer valor;
 	private Boolean duplicated;
 	
-	public Integer getIdUser() {
-		return idUser;
-	}
-
-	public void setIdUser(Integer id) {
-		this.idUser = id;
-	}
-
 	public String getDescricao() {
 		return descricao;
 	}

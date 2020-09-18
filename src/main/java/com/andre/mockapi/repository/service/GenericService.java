@@ -1,26 +1,24 @@
 package com.andre.mockapi.repository.service;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.lang.reflect.Type;
 import java.nio.file.FileSystems;
 import java.nio.file.Path;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
 
 import com.andre.mockapi.repository.GenericRepository;
 import com.google.gson.Gson;
-import com.google.gson.JsonIOException;
-import com.google.gson.JsonSyntaxException;
 import com.google.gson.reflect.TypeToken;
 
-public abstract class GenericService<T> implements GenericRepository<T>{
-	
-	private final Logger logger = Logger.getLogger(GenericService.class);
-	private List<T> list = null;
+public abstract class GenericService<T> implements GenericRepository<T> {
 
-	public List<T> parseJson(String fileJson) throws JsonIOException, JsonSyntaxException, FileNotFoundException{
+	private final Logger logger = Logger.getLogger(GenericService.class);
+	private ArrayList<T> list = null;
+
+	public List<T> jsonToJava(String fileJson) throws Exception {
 		logger.info("iniciando Service");
 
 		Path path = FileSystems.getDefault().getPath("").toAbsolutePath();
@@ -34,10 +32,14 @@ public abstract class GenericService<T> implements GenericRepository<T>{
 		Type listType = new TypeToken<List<T>>() {
 		}.getType();
 		list = gson.fromJson(fileReader, listType);
+		fileReader.close();
 
-		logger.info("Parse Json com sucesso!!!");
-		
 		return list;
 	}
-	
+
+	public String javaToJson(List<T> instance) throws Exception {
+		Gson gson = new Gson();
+		return gson.toJson(instance);
+	}
+
 }
