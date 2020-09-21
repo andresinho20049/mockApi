@@ -31,37 +31,37 @@
   },
   {
      "descricao": "Registro duplicado Jan",
-     "data": 1579316401000,
+     "data": 1577848872000,
      "valor": 66666,
      "duplicated": false
   },
   {
      "descricao": "Registro duplicado Jan",
-     "data": 1579316401000,
+     "data": 1577848872000,
      "valor": 66666,
      "duplicated": true
   },
   {
      "descricao": "Registro duplicado fev",
-     "data": 1589770801000,
+     "data": 1580527272000,
      "valor": 157171,
      "duplicated": false
   },
   {
      "descricao": "Registro duplicado fev",
-     "data": 1589770801000,
+     "data": 1580527272000,
      "valor": 157171,
      "duplicated": true
   },
   {
      "descricao": "Registro duplicado mar",
-     "data": 1581994801000,
+     "data": 1583032872000,
      "valor": 66666,
      "duplicated": false
   },
   {
      "descricao": "Registro duplicado mar",
-     "data": 1581994801000,
+     "data": 1583032872000,
      "valor": 66666,
      "duplicated": true
   }
