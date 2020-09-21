@@ -5,7 +5,8 @@ Tecnologia utilizada: Java 8 + Spring boot + Rest + log4j + Docker
 
 Sobre:
 	- API de mock de Transações, baseado no response JSON abaixo:
-	\n
+	
+	
     [
 	  {
 		 "descricao": "Compass to GuiaBolso",
@@ -20,13 +21,13 @@ Sobre:
 		 "duplicated": false
 	  }
 	]
-	\n
+	
+	
 	-As requisições da API são HTTP utilizando Rest Service
 	
 	-API não faz nenhuma consulta no banco de dados, todos os valores retornados vem direto de um arquivo: *-mock.json
 	
 	-Foi criado imagem docker baseado no openjdk:8 e as portas 8080 para Tomcat e 5005 para debbug no docker estão abertas
-	\n
 	
 Métodos:
 	get /api/{id} - Consulta de todas as transacoes do ID informado no path
@@ -34,6 +35,6 @@ Métodos:
 	get /api/{id}/transacoes/{ano}/{mes} - Consulta das transacoes do id informado no path filtrando o ano e mês
 	post /api/{id} - Save de nova transacao
 
-Inspirações de código: \n
-	-Marcos Caldeira(Meu grande mentor) \n
+Inspirações de código:
+	-Marcos Caldeira(Meu grande mentor)
 	-canal do Rodrigo Rahman https://www.youtube.com/channel/UC5hvPObwya8kzWWB-wmVlXg
