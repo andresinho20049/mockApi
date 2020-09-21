@@ -1,1 +1,68 @@
-[{"descricao":"GM Motors","data":1600661547097,"valor":250000,"duplicated":false}]
+[
+  {
+     "descricao": "Skype for MSN",
+     "data": 1595041201000,
+     "valor": 500000,
+     "duplicated": false
+  },
+  {
+     "descricao": "Facebook for Orkut",
+     "data": 1602990001000,
+     "valor": 635000,
+     "duplicated": false
+  },
+  {
+     "descricao": "SBT for Santander",
+     "data": 1589770801000,
+     "valor": 66505500,
+     "duplicated": false
+  },
+  {
+     "descricao": "Mr Robot for Coin",
+     "data": 1597719601000,
+     "valor": 550000,
+     "duplicated": false
+  },
+  {
+     "descricao": "Registro unico",
+     "data": 1589770801000,
+     "valor": 1234567899,
+     "duplicated": false
+  },
+  {
+     "descricao": "Registro duplicado Jan",
+     "data": 1579316401000,
+     "valor": 66666,
+     "duplicated": false
+  },
+  {
+     "descricao": "Registro duplicado Jan",
+     "data": 1579316401000,
+     "valor": 66666,
+     "duplicated": true
+  },
+  {
+     "descricao": "Registro duplicado fev",
+     "data": 1589770801000,
+     "valor": 157171,
+     "duplicated": false
+  },
+  {
+     "descricao": "Registro duplicado fev",
+     "data": 1589770801000,
+     "valor": 157171,
+     "duplicated": true
+  },
+  {
+     "descricao": "Registro duplicado mar",
+     "data": 1581994801000,
+     "valor": 66666,
+     "duplicated": false
+  },
+  {
+     "descricao": "Registro duplicado mar",
+     "data": 1581994801000,
+     "valor": 66666,
+     "duplicated": true
+  }
+]

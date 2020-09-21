@@ -6,9 +6,39 @@
      "duplicated": false
   },
   {
+     "descricao": "Batata criar mock json",
+     "data": 1589770801000,
+     "valor": 635000,
+     "duplicated": false
+  },
+  {
+     "descricao": "GuiaBolso to Globo",
+     "data": 1595041201000,
+     "valor": 984540210,
+     "duplicated": false
+  },
+  {
      "descricao": "GuiaBolso to EvilCorp(Mr Robot)",
      "data": 1600662370160,
      "valor": 550000,
+     "duplicated": true
+  },
+  {
+     "descricao": "Registro unico",
+     "data": 1600398001000,
+     "valor": 4360000,
+     "duplicated": false
+  },
+  {
+     "descricao": "GuiaBolso to EvilCorp(Mr Robot)",
+     "data": 1600662370160,
+     "valor": 550000,
+     "duplicated": true
+  },
+  {
+     "descricao": "Essa eh uma descricao valida",
+     "data": 1600398001000,
+     "valor": 46512,
      "duplicated": false
   }
 ]
