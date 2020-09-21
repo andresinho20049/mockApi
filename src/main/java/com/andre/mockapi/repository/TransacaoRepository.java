@@ -8,8 +8,10 @@ public interface TransacaoRepository extends GenericRepository<Transacao>{
 	
 	public List<Transacao> getTransacao(Integer userId) throws Exception; 
 	
-	public List<Transacao> getTransacao (Integer userId, String ano) throws Exception;
+	public List<Transacao> getTransacao (Integer userId, Integer ano) throws Exception;
 	
-	public List<Transacao> getTransacao (Integer userId, String ano, String mes) throws Exception;
+	public List<Transacao> getTransacao (Integer userId, Integer ano, Integer mes) throws Exception;
+	
+	public void save (Integer userId, Transacao transacao);
 
 }

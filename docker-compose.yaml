@@ -1,0 +1,10 @@
+version: '3'
+services:
+  mock_api_transacoes:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    image: andresinho200498/mockapi
+    ports:
+      - '8080:8080'
+      - '5005:5005'

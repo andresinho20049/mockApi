@@ -1,11 +1,11 @@
 FROM openjdk:8
-COPY /target/ApiTransacoes*.jar ApiTransacoes
-WORKDIR /usr/src/api_transacoes
-RUN javac Main.java
+WORKDIR /usr/src/mockapi
+COPY /target/mockapi*.jar mockapi.jar
+COPY /mock/transacoes/*.json ./mock/transacoes/
 
 SHELL ["/bin/sh", "-c"]
 
-EXPOSE 5005
 EXPOSE 8080
+EXPOSE 5005
 
-CMD java ${ADDITIONAL_OPTS} -jar spring_boot_com_mysql.jar --spring.profiles.active=${PROFILE}
+CMD java -jar mockapi.jar
