@@ -21,7 +21,7 @@
      "descricao": "GuiaBolso to EvilCorp(Mr Robot)",
      "data": 1600662370160,
      "valor": 550000,
-     "duplicated": true
+     "duplicated": false
   },
   {
      "descricao": "Registro unico",
@@ -40,5 +40,41 @@
      "data": 1600398001000,
      "valor": 46512,
      "duplicated": false
+  },
+  {
+     "descricao": "JaneiroCompras",
+     "data": 1579316401000,
+     "valor": 66666,
+     "duplicated": false
+  },
+  {
+     "descricao": "JaneiroCompras",
+     "data": 1579316401000,
+     "valor": 66666,
+     "duplicated": true
+  },
+  {
+     "descricao": "FevereiroCompras",
+     "data": 1589770801000,
+     "valor": 157171,
+     "duplicated": false
+  },
+  {
+     "descricao": "FevereiroCompras",
+     "data": 1589770801000,
+     "valor": 157171,
+     "duplicated": true
+  },
+  {
+     "descricao": "MarcoCompras",
+     "data": 1581994801000,
+     "valor": 66666,
+     "duplicated": false
+  },
+  {
+     "descricao": "MarcoCompras",
+     "data": 1581994801000,
+     "valor": 66666,
+     "duplicated": true
   }
 ]

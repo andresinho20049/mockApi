@@ -314,20 +314,20 @@
   {
     "descricao": "Ergonomic Granite Pizza",
     "data": 1595041201000,
-    "valor": 52419,
+    "valor": 93030,
     "duplicated": true
   },
   {
     "descricao": "Refined Wooden Ball",
-    "data": 1595041201000,
-    "valor": 30433,
-    "duplicated": false
-  },
-  {
-    "descricao": "Sleek Soft Pants",
     "data": 1602990001000,
     "valor": 60954,
     "duplicated": false
+  },
+  {
+    "descricao": "Refined Wooden Ball",
+    "data": 1602990001000,
+    "valor": 60954,
+    "duplicated": true
   },
   {
     "descricao": "Ergonomic Concrete Sausages",
@@ -338,7 +338,7 @@
   {
     "descricao": "Ergonomic Granite Pizza",
     "data": 1595041201000,
-    "valor": 52419,
+    "valor": 93030,
     "duplicated": true
   }
 ]
