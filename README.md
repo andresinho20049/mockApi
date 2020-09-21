@@ -7,24 +7,6 @@ Sobre:
 
 	- API de mock de Transações, baseado no response JSON abaixo:
 	
-<<<<<<< HEAD
-	
-    [
-	  {
-		 "descricao": "Compass to GuiaBolso",
-		 "data": 20200918030839,
-		 "valor": 500000,
-		 "duplicated": false
-	  },
-	  {
-		 "descricao": "GuiaBolso to EvilCorp(Mr Robot)",
-		 "data": 20200918030846,
-		 "valor": 550000,
-		 "duplicated": false
-	  }
-	]
-	
-=======
 	    [
 		  {
 			 "descricao": "Compass to GuiaBolso",
@@ -39,8 +21,7 @@ Sobre:
 			 "duplicated": false
 		  }
 		]
->>>>>>> 25f3f6c0573952c0cf3cf5a2d64e0922a74a769d
-	
+
 	-As requisições da API são HTTP utilizando Rest Service
 	
 	-API não faz nenhuma consulta no banco de dados, todos os valores retornados vem direto de um arquivo: *-mock.json
@@ -54,14 +35,6 @@ Métodos:
 	get /api/{id}/transacoes/{ano}/{mes} - Consulta das transacoes do id informado no path filtrando o ano e mês
 	post /api/{id} - Save de nova transacao
 
-<<<<<<< HEAD
 Inspirações de código:
 	-Marcos Caldeira(Meu grande mentor)
 	-canal do Rodrigo Rahman https://www.youtube.com/channel/UC5hvPObwya8kzWWB-wmVlXg
-=======
-
-Inspirações de código:
-
-	Marcos Caldeira(Meu grande mentor) 
-	canal do Rodrigo Rahman https://www.youtube.com/channel/UC5hvPObwya8kzWWB-wmVlXg
->>>>>>> 25f3f6c0573952c0cf3cf5a2d64e0922a74a769d
