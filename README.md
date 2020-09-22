@@ -38,6 +38,6 @@ Tecnologia utilizada: Java 8 + Spring boot + Rest + log4j + Docker
 https://mockapi-heroku.herokuapp.com/api/1001
 
 
-> **Inspirações:**
+> **Inspirações:**   
 > Marcos Caldeira *(Meu grande mentor)*  
 > canal do [Rodrigo Rahman](https://www.youtube.com/channel/UC5hvPObwya8kzWWB-wmVlXg)
